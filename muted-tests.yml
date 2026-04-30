@@ -550,3 +550,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testTrackTotalHitsUpTo
   issue: https://github.com/elastic/elasticsearch/issues/148071
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testSortByFieldOneClusterHasNoResults
+  issue: https://github.com/elastic/elasticsearch/issues/148074
