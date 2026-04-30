@@ -526,3 +526,6 @@ tests:
 - class: org.elasticsearch.search.profile.TimerTests
   method: testTimingInterval
   issue: https://github.com/elastic/elasticsearch/issues/148038
+- class: org.elasticsearch.search.sort.NestedSortBuilderTests
+  method: testEqualsAndHashcode
+  issue: https://github.com/elastic/elasticsearch/issues/148039
