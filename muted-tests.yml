@@ -550,3 +550,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testHasParentWithInnerHit
   issue: https://github.com/elastic/elasticsearch/issues/148058
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testFetchSource
+  issue: https://github.com/elastic/elasticsearch/issues/148059
