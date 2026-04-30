@@ -538,3 +538,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testTermsAggs
   issue: https://github.com/elastic/elasticsearch/issues/148049
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testProfile
+  issue: https://github.com/elastic/elasticsearch/issues/148050
