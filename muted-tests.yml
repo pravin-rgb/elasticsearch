@@ -544,3 +544,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testSortByField
   issue: https://github.com/elastic/elasticsearch/issues/148052
+- class: org.elasticsearch.search.aggregations.metrics.LargeTopHitsIT
+  method: test500Queries
+  issue: https://github.com/elastic/elasticsearch/issues/148056
