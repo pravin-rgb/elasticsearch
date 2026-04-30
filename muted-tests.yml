@@ -541,3 +541,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testProfile
   issue: https://github.com/elastic/elasticsearch/issues/148050
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testSortByField
+  issue: https://github.com/elastic/elasticsearch/issues/148052
