@@ -553,3 +553,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testFetchSource
   issue: https://github.com/elastic/elasticsearch/issues/148059
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testFieldCollapsingSortByScore
+  issue: https://github.com/elastic/elasticsearch/issues/148063
