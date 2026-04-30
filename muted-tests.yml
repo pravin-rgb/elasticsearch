@@ -558,3 +558,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testDateHistogram
   issue: https://github.com/elastic/elasticsearch/issues/148080
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testTerminateAfter
+  issue: https://github.com/elastic/elasticsearch/issues/148089
