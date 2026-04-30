@@ -511,3 +511,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testPagination
   issue: https://github.com/elastic/elasticsearch/issues/148006
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testTermsAggsWithProfile
+  issue: https://github.com/elastic/elasticsearch/issues/148010
