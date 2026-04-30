@@ -556,3 +556,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testFieldCollapsingSortByScore
   issue: https://github.com/elastic/elasticsearch/issues/148063
+- class: org.elasticsearch.xpack.stateless.StatelessRealTimeTermVectorsIT
+  method: testUpdatedDocsNotInLiveVersionMapDoNotRefresh
+  issue: https://github.com/elastic/elasticsearch/issues/148067
