@@ -556,3 +556,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testFieldCollapsingSortByField
   issue: https://github.com/elastic/elasticsearch/issues/148079
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testDateHistogram
+  issue: https://github.com/elastic/elasticsearch/issues/148080
