@@ -508,3 +508,6 @@ tests:
 - class: org.elasticsearch.xpack.core.inference.action.InferenceActionRequestTests
   method: testWriteTo_ForHasBeenReroutedChanges
   issue: https://github.com/elastic/elasticsearch/issues/148000
+- class: org.elasticsearch.search.CCSDuelIT
+  method: testPagination
+  issue: https://github.com/elastic/elasticsearch/issues/148006
