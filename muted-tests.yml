@@ -564,3 +564,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testCardinalityAgg
   issue: https://github.com/elastic/elasticsearch/issues/148091
+- class: org.elasticsearch.xpack.stateless.snapshots.StatelessSnapshotStressTestsIT
+  method: testRandomActivitiesStatelessSnapshotReadFromObjectStore
+  issue: https://github.com/elastic/elasticsearch/issues/148092
