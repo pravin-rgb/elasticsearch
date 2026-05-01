@@ -580,3 +580,6 @@ tests:
 - class: org.elasticsearch.search.CCSDuelIT
   method: testTermSuggester
   issue: https://github.com/elastic/elasticsearch/issues/148136
+- class: org.elasticsearch.xpack.stateless.StatelessRealTimeTermVectorsIT
+  method: testDocsNotInLiveVersionMapDoNotRefresh
+  issue: https://github.com/elastic/elasticsearch/issues/148138
