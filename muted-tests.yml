@@ -529,3 +529,6 @@ tests:
 - class: org.elasticsearch.index.engine.LuceneChangesSnapshotTests
   method: testUpdateAndReadChangesConcurrently
   issue: https://github.com/elastic/elasticsearch/issues/148145
+- class: org.elasticsearch.xpack.stateless.cache.SharedBlobCacheWarmingServiceIT
+  method: testCacheIsWarmedBeforeSearchShardRecoveryWhenVBCCGetsUploaded
+  issue: https://github.com/elastic/elasticsearch/issues/148148
