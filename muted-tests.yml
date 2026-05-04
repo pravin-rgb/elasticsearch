@@ -532,3 +532,6 @@ tests:
 - class: org.elasticsearch.xpack.esql.EsqlAsyncSecurityIT
   method: testDataSourceAdminListEmpty
   issue: https://github.com/elastic/elasticsearch/issues/148183
+- class: org.elasticsearch.xpack.esql.EsqlAsyncSecurityIT
+  method: testDataSourceCrudForbiddenWithoutClusterManage
+  issue: https://github.com/elastic/elasticsearch/issues/148184
