@@ -538,3 +538,6 @@ tests:
 - class: org.elasticsearch.xpack.esql.EsqlSecurityIT
   method: testDatasetCrudForbiddenWithoutIndexManage
   issue: https://github.com/elastic/elasticsearch/issues/148185
+- class: org.elasticsearch.xpack.esql.EsqlSecurityIT
+  method: testDataSourceAdminListEmpty
+  issue: https://github.com/elastic/elasticsearch/issues/148186
